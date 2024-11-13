@@ -44,13 +44,7 @@ c_second_number = float(input(f"Please enter your second number: "))
 c_third_number = float(input(f"Please enter your third number: "))
 product_c = c_first_number * c_second_number * c_third_number 
 
-
-
-
-
-
 print(f"This 3 numbers form the first array assigned with letter c[{show_without_decimal(c_first_number)}, " f"{show_without_decimal(c_second_number)}, {show_without_decimal(c_third_number)}] \n" "Down below we will conform the array assigned to letter d.")
-
 
 d_first_number = float(input(f"Please enter for d array your first number: "))
 d_second_number = float(input(f"Please enter your second number: "))
