@@ -5,6 +5,7 @@
 # For example, if the parameters passed are ([2, 2, 3], [5, 4, 1]), the volume of a is 12 and the volume of b is 20. Therefore, the function should return 8. 
 # Your function will be tested with pre-made examples as well as random ones. 
 
+#--------------------------SOLUTION----------------------------------
 from math import prod 
 def find_difference(a, b):
     result = abs(prod(a) - prod(b))
@@ -21,6 +22,13 @@ find_difference(a,b)
 # abs(...): Toma el valor absoluto de la diferencia obtenida en el paso anterior, asegurando que el resultado sea positivo.
 
 
+
+
+
+
+
+
+# --------------------------SCALING---------------------------
 c_first_number = float(input(f"Please enter your first number: "))
 c_second_number = float(input(f"Please enter your second number: "))
 c_third_number = float(input(f"Please enter your third number: "))
