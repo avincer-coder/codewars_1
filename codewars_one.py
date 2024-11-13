@@ -52,6 +52,6 @@ b_array = [d_first_number, d_second_number, d_third_number]
 
 def second_difference(c,d):
     result = abs(prod(c)-prod(d))
-    print(f"The difference between your two arrays is: {show_without_decimal(result)}")
+    print(f"The difference between your two arrays is: {show_without_decimal(result)} \nHave a good day!!")
     
 second_difference(c_array, b_array)
