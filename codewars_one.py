@@ -29,11 +29,6 @@ find_difference(a,b)
 
 
 # --------------------------SCALING---------------------------
-c_first_number = float(input(f"Please enter your first number: "))
-c_second_number = float(input(f"Please enter your second number: "))
-c_third_number = float(input(f"Please enter your third number: "))
-product_c = c_first_number * c_second_number * c_third_number 
-
 # Función auxiliar para eliminar decimales si el número es entero
 def show_without_decimal(number):
     return int(number) if number.is_integer() else number 
@@ -42,6 +37,14 @@ def show_without_decimal(number):
 # Para números con parte decimal (ej. 3.14): El número 3.14 no es un entero, pues tiene decimales .is_integer() devuelve False en este caso.
 
 #Usa .is_integer() cuando quieras verificar si un número float es efectivamente un número entero (sin decimales), y así decidir si mostrarlo como entero o flotante, como en el ejemplo anterior para formatear la salida.
+
+
+c_first_number = float(input(f"Please enter your first number: "))
+c_second_number = float(input(f"Please enter your second number: "))
+c_third_number = float(input(f"Please enter your third number: "))
+product_c = c_first_number * c_second_number * c_third_number 
+
+
 
 
 
